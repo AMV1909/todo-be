@@ -140,6 +140,12 @@ GEM
       racc (~> 1.4)
     nokogiri (1.19.4-x86_64-linux-gnu)
       racc (~> 1.4)
+    oj (3.17.7)
+      bigdecimal (>= 3.0)
+      ostruct (>= 0.2)
+    oj_serializers (3.0.2)
+      oj (>= 3.14.0)
+    ostruct (0.6.3)
     parallel (1.28.0)
     parser (3.3.12.0)
       ast (~> 2.4.1)
@@ -286,6 +292,7 @@ DEPENDENCIES
   debug
   factory_bot_rails
   faker
+  oj_serializers
   puma (>= 5.0)
   pundit-matchers
   rails (~> 8.1.4)
@@ -346,6 +353,9 @@ CHECKSUMS
   nio4r (2.7.5) sha256=6c90168e48fb5f8e768419c93abb94ba2b892a1d0602cb06eef16d8b7df1dca1
   nokogiri (1.19.4-x64-mingw-ucrt) sha256=051da97b8eccfdb5444fed40246a35e10d7298b9efe759b4cd25455ea04c587e
   nokogiri (1.19.4-x86_64-linux-gnu) sha256=379fae440b28915e3f19d752ce2dcf8465ed2b2fbefd2a7ca0dd497bc981a06a
+  oj (3.17.7) sha256=7a21d3ac8e544a850f1cdaf711b0c8144ba587d14d3e4917c0855fd7b0483db7
+  oj_serializers (3.0.2) sha256=ba6e338a4f7b399d92ab8fb7f13973f22b50e042ce1b73b2f185f088b3c15903
+  ostruct (0.6.3) sha256=95a2ed4a4bd1d190784e666b47b2d3f078e4a9efda2fccf18f84ddc6538ed912
   parallel (1.28.0) sha256=33e6de1484baf2524792d178b0913fc8eb94c628d6cfe45599ad4458c638c970
   parser (3.3.12.0) sha256=21a6d7f755d5a24dfbdc6e6b772e4e879a52e7631a88bc5a3a134606052c9828
   pp (0.6.4) sha256=dfcb0fce700c41456265922884f9fe195d7fbb0674a3578e6c0f69588e82b570
